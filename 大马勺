@@ -1,0 +1,7 @@
+VSCODE汉化
+  1.步骤
+VScode默认情况下是英文的
+2.点击左侧栏最底下的四方形按钮打开罗转程序界面，在输入框内输入【chinese】并找到
+【chinese(Simplified)LanguagePack for Visual Studio Code】这个插件，点击install
+3.安装完成后按快捷键win shift p 在命令面板输入conifg，找到【CDL】
+并点击file:///D:/36462/screenshot-1710597317043.png
