@@ -1,0 +1,16 @@
+web Top10 逻辑漏洞 未授权 任意密码修改 越权=水平越权 垂直越权 支付漏洞
+推荐靶场:pikachu burpsuite dvwa  后续靶场: vuluhub htb 
+下载地址 Pickcu:https://github.com/zhuifengshaonianhanlu/pikachu 教程 https://blog.csdn.net/2302_82189125/article/details/135718722
+Vulnhub:https://www.vulnhub .com/
+HTB https://www.hackthebox.com/(不用搭建)
+
+进阶：信息收集  ===>威馨公众号 Freebuf 知识社区 qax安全攻防社区 知识大陆
+  漏洞提交：漏洞盒子 补天
+挖掘cnvd edu cnnvd cve nvbd 众测
+高级：php能看懂 js代码稍微学一学 python（编写脚本用） Java必学的（代码审计 框架）
+免杀： go rust C++
+学内网即可
+
+渗透测试流程：1.信息收集2.发现漏洞3.拿到权限4.进入内网5.权限提升6.会话维持 7.域渗透--内网横向
+
+应急响应 木马查杀 漏洞研究
