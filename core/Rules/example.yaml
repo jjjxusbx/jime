@@ -1,0 +1,22 @@
+### 1. 混合规则引擎系统
+```yaml
+# 示例：CVE-2023-XXXX 检测规则（兼容Xray语法并扩展）
+id: CVE-2023-XXXX
+metadata:
+  risk: critical
+  tags: rce,web
+
+transport: http
+detection:
+  primary:
+    request: |
+      POST /api/v1/endpoint HTTP/1.1
+      Content-Type: {{exploit_template}}
+    expression: 
+      - status_code == 200
+      - regex_match(body, "root:[x*]:0:0:")
+  
+  # 新增AI辅助验证模块
+  ai_validation:
+    module: ml_models/cve_validator.onnx
+    threshold: 0.92

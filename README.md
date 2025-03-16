@@ -18,16 +18,32 @@
 
 - **企业级工程规范**
   ```bash
-  📦 ProjectName
-  ├── src/               # 核心源代码
-  │   ├── Core/         # 漏洞逻辑实现
-  │   ├── Safeguards/   # 安全防护模块
-  │   └── Utilities/    # 通用工具库
-  ├── tests/            # 单元测试套件
-  ├── docs/             # 技术文档
-  └── samples/          # 使用案例
-  l—— env/
-  l__ shell/
+  📦 
+    ├── Basic.txt
+    ├── Network security self-study route.txt
+    ├── README.md
+    ├── core
+    │   └── Rules
+    │       ├── Modules
+    │       │   ├──  MsfConverter
+    │       │   │   ├── RubyParser
+    │       │   │   │   └── q.cs
+    │       │   │   ├── SampleModules
+    │       │   │   │   └── e.g.bash
+    │       │   │   └── TemplateEngine
+    │       │   └── WasmSandbox
+    │       │       ├── Rules
+    │       │       ├── Runtime
+    │       │       │   └── Validator.cs
+    │       │       ├── WasmDemo.cs
+    │       │       └── main.cs
+    │       └── example.yaml
+    ├── env
+    │   └── os_environment.txt
+    ├── payloads
+    │   └── templates
+    └── shell
+        └── shell.md
   ```
 
 - **智能修复验证**
