@@ -1,4 +1,4 @@
-# [Project Name] - 安全漏洞修复POC框架
+# [jime] - 安全漏洞修复POC框架
 
 [![Build Status](https://img.shields.io/github/actions/workflow/status/yourusername/projectname/build.yml?style=flat-square)](https://github.com/yourusername/projectname/actions)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg?style=flat-square)](LICENSE)
@@ -18,7 +18,7 @@
 
 - **企业级工程规范**
   ```bash
-  📦 
+  📦 jime
     ├── Basic.txt
     ├── Network security self-study route.txt
     ├── README.md
